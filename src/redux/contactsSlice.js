@@ -20,7 +20,6 @@ const contactsSlice = createSlice({
       const index = state.items.findIndex(
         (contact) => contact.id === action.payload
       );
-
       state.items.splice(index, 1);
     },
   },
